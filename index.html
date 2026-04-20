@@ -134,41 +134,24 @@
       </div>
 
       
-      <div class="music-play">
-        <div class="album">
-          <img src="./assets/card2img.jpeg" alt="card-2" />
-          <div class="left-text">
-            <p class="title">Daylight</p>
-            <p class="author">Aman Raj</p>
-          </div>
+      <div class="music-play music-player">
+       <div class="album"></div>
+       <div class="player">
+        <div class="player-controls">
+            <img src="./assets/player_icon1.png" class="player-control-icon" alt="">
+            <img src="./assets/player_icon2.png" class="player-control-icon" alt="">
+            <img src="./assets/player_icon3.png" class="player-control-icon" alt="" style="opacity: 1; height: 2rem;">
+            <img src="./assets/player_icon4.png" class="player-control-icon" alt="" >
+            <img src="./assets/player_icon5.png" class="player-control-icon" alt="">
         </div>
-        <div class="music-player">
-          <div class="album"></div>
-          <div class=".player">
-            <div class="player-range">
-              <img src="./assets/player_icon1.png" class="player-control-icon" alt="" />
-              <img src="./assets/player_icon2.png" class="player-control-icon" alt="" />
-              <img src="./assets/player_icon3.png" class="player-control-icon"  alt=""/>
-              <img src="./assets/player_icon4.png" class="player-control-icon" alt="" />
-              <img src="./assets/player_icon5.png" class="player-control-icon" alt="" />
-            </div>
-            <div class="progress-bar">
-              <span class="curr-time">00:00</span>
-              <input type="range" min="0" max="100" class="progress-bar" step="1">
-              <span class="tot-time">03:30</span>
-            </div>
-          </div>
+        
+        <div class="playback-bar">
+            <span class="curr-time">00:00</span>
+            <input type="range" min="0" max="100" step="1" class="progress-bar">
+            <span class="tot-time">03:33</span>
         </div>
-
-        <div class="controls">
-          <ul class="player-control">
-            <li><i class="fa-solid fa-music"></i></li>
-            <li><i class="fa-solid fa-headphones"></i></li>
-            <li><i class="fa-solid fa-volume"></i></li>
-            <li><i class="fa-solid fa-podcast"></i></li>
-          </ul>
-        </div>
-      </div>
+       </div>
+       <div class="controls"></div>
     </div>
   </body>
 </html>
